@@ -51,6 +51,6 @@ Možné situace:
 ## Výstup
 * produkt splňující minimální požadavky
 * GIT repo
-* odkaz na vlastní GIT repo vložený do tabulky na společném repo
+* odkaz na vlastní GIT repo vložený do tabulky na společném repo [3R Řešení projektu IOT 2324](https://gitlab.spseplzen.cz/skrivanova/3r-reseni-projektu-iot-2324 "3R Řešení projektu IOT 2324")
 * prezentace funkčnosti před třídou
 * video prezentující projekt o délce min. 1 minuty, ne delší než 1:30
