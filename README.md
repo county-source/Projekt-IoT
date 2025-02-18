@@ -1,23 +1,25 @@
-# 3R - Projekt - Model reálné dopravní situace
+# Chytrý IoT Květináč
 
-vzorové repo pro projekt - Model reálné dopravní situace - 3.R předmět IoT
+**Autor:** Jakub Vana 3F  
+**Datum:** 2025-02-17
 
-> **_začněte naklonováním tohoto repozitáře_**
+---
 
-## Obsah
-* **README.md**
-  * tento soubor
-* **zadani.md**
-  * přehled zadání a minimálního rozsahu
-* **otazky_prezentace.md**
-* **dokumentace/design/**
-  * místo pro návrhy a vizualizace
-* **dokumentace/fotky/**
-  * místo pro fotky
-* **dokumentace/video/**
-  * místo pro video
-* *dokumentace/prezentace/ - volitelně, prezentace*
-* **zdrojove_kody/**
-  * nasdílejte kompletní zdrojové kódy umožňující nahrání a spuštění projektu
-* **zdrojove_kody/knihovny/**
-  * nasdílejte potřebné knihovny
+## Funkce
+
+- **Probuzení:** Skrytý FSR detekuje tlak a probudí ESP32 z hlubokého spánku.
+- **Měření:** ESP32 pravidelně sbírá data ze senzorů – vlhkost půdy, teplotu vzduchu, vlhkost vzduchu a hladinu vody.
+- **Zobrazení:** Naměřená data se zobrazují na OLED displeji.
+
+---
+
+## Sestava
+
+- **ESP32 Development Board** – hlavní mikrokontrolér, který řídí všechny funkce.
+- **Kapacitní senzor vlhkosti půdy** – měří aktuální vlhkost půdy.
+- **Teplotní senzor – monitoruje teplotu vzduchu.
+- **OLED displej (I2C) – zobrazuje naměřená data.
+- **FSR (Force Sensitive Resistor) – tlakový senzor pro probuzení.
+- **Senzor hladiny vody – kontroluje stav vodní hladiny v rezervoáru.
+- **Vodní rezervoár – zásobník pro zavlažování, který je vybaven odtokovým systémem.
+- **3D tisknutý květináč** – navržený s dutinou pro umístění elektroniky a skrytí FSR.
