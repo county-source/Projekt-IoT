@@ -175,5 +175,5 @@ void loop() {
     u8g2.sendBuffer();
 
     Serial.println("✅ OLED Updated Successfully.");
-    delay(5000);
+    delay(2000);
 }
