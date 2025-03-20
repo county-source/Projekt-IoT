@@ -210,7 +210,7 @@ void loop() {
       Serial.printf("Temp: %.2f °C, Humidity: %.2f%%, Soil: %d -> %d%%, Water: %d -> %s\n",
                     airTemp, airHumidity, soilMoisture, soilPerc, waterLevel, waterState.c_str());
       
-      delay(60000); // Měření každou minutu
+      delay(5000); 
     }
   } else {
     Serial.println("Nepodařilo se nacist cas, cekam 5s...");
