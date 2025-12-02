@@ -5,8 +5,6 @@
 
 
 ## Funkce
-
-- **Probuzení:** Skrytý FSR detekuje tlak a probudí ESP32 z hlubokého spánku.
 - **Měření:** ESP32 pravidelně sbírá data ze senzorů – vlhkost půdy, teplotu vzduchu, vlhkost vzduchu a hladinu vody.
 - **Zobrazení:** Naměřená data se zobrazují na OLED displeji.
 
